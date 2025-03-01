@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background-color: rgb(6, 59, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    width: 40%;
+    height: 50vh;
+
+    background-color: rgb(35, 57, 46);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+
+#input-container {
+    display: flex;
+    gap: 7px;
+    background-color: rgb(83, 82, 82);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 17px; 
+    width: 100%;
+}
+
+#input-container input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+#addExpense , button {
+    background-color: rgb(17, 128, 84);
+    color: white;
+    padding: 6px 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#addExpense:hover {
+    background-color: rgb(12, 72, 48);
+}
+
+
+.expense-list {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.expense-list h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 82, 82);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+#totalAmount {
+    font-weight: bold;
+}
