@@ -1,5 +1,4 @@
-
-💰 Smart Expense Tracker 
+💰Expense Tracker 
 
 Take control of your finances with Smart Expense Tracker, a sleek and user-friendly tool to monitor, categorize, and analyze your expenses effortlessly. With an intuitive interface and dynamic visuals, managing your budget has never been easier!
 
